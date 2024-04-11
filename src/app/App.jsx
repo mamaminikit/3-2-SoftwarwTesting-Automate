@@ -27,7 +27,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <Title title="AUTOMATE TESING" descrip="use 'crypree' to automate testing with TDD technic (vitest)" />
+      <Title title="AUTOMATE TESTING" descrip="use 'crypree' to automate testing with TDD technic (vitest)" />
       <Calculate onFormClick={handleClick} />
       <Result first={first} second={second} operator={operator} output={output} />
     </>
